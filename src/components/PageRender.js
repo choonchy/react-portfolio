@@ -5,6 +5,7 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import ContactMe from './pages/ContactMe';
 import Resume from './pages/Resume';
+import Footer from './Footer';
 
 const styles = {
 	header: {
@@ -17,7 +18,7 @@ const styles = {
 	},
 	name: {
 		display: 'flex',
-		fontSize: '2vh',
+		fontSize: '6vh',
 		alignItems: 'center',
 	},
 };
@@ -44,10 +45,13 @@ export default function PageRender() {
 	return (
 		<div>
 			<header style={styles.header}>
-				<div style={styles.name}>Tom Chappell</div>
+				<div className="name-logo" style={styles.name}>
+					Tom Chappell
+				</div>
 				<Navbar currentPage={page} handlePageChange={handlePageChange} />
 			</header>
 			<section>{renderPage()}</section>
+			<Footer />
 		</div>
 	);
 }

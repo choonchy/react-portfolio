@@ -1,0 +1,16 @@
+.nav-link {
+	color: #facc6b;
+	border: none;
+}
+
+.nav-link:hover {
+	color: #dd4b1a;
+	border: none;
+	background-color: #facc6b;
+}
+
+.active {
+	color: #dd4b1a;
+	border: none;
+	background-color: #facc6b;
+}

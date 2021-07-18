@@ -1,0 +1,8 @@
+footer a {
+	opacity: 50%;
+	transition: all 500ms;
+}
+
+footer a:hover {
+	opacity: 100%;
+}

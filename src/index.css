@@ -1,3 +1,7 @@
+:root {
+	font-family: 'Raleway', sans-serif;
+}
+
 body {
 	background-color: #f5b82e;
 	display: flex;
@@ -14,4 +18,9 @@ form {
 form input {
 	margin: 0.5rem;
 	padding: 0.5rem;
+}
+
+.name-logo {
+	font-family: 'Caveat', cursive;
+	color: #facc6b;
 }

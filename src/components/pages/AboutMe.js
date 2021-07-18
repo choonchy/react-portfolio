@@ -14,10 +14,12 @@ const styles = {
 
 const AboutMe = () => {
 	return (
-		<section style={styles.about}>
-			Hi, my name is Tom and I am a full stack web developer specialising in
-			React, MongoDB, Express.js and Node.js.
-		</section>
+		<div>
+			<p style={styles.about}>
+				Hi, my name is Tom and I am a full stack web developer specialising in
+				React, MongoDB, Express.js and Node.js.
+			</p>
+		</div>
 	);
 };
 
