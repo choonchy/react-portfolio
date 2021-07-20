@@ -3,7 +3,7 @@
 }
 
 body {
-	background-color: #f5b82e;
+	background-color: #dccfec;
 	display: flex;
 	justify-content: center;
 }
@@ -22,5 +22,8 @@ form input {
 
 .name-logo {
 	font-family: 'Caveat', cursive;
-	color: #facc6b;
+	color: #2d232e;
+}
+.first-name {
+	color: #ba5624;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 // import ColourPalette from './ColourPalette';
 import './Footer.css';
-import LinkedInLogo from '../LinkedIn Logo.png';
-import GitHubLogo from '../GitHub Logo.png';
+import LinkedInLogo from '../images/LinkedIn Logo.png';
+import GitHubLogo from '../images/GitHub Logo.png';
 
 const styles = {
 	footer: {

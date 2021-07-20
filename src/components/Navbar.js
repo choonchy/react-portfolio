@@ -3,45 +3,53 @@ import './Navbar.css';
 
 function NavTabs({ currentPage, handlePageChange }) {
 	return (
-		<ul className="nav nav-tabs">
-			<li className="nav-item">
+		<ul className="navbar">
+			<li>
 				<a
 					href="#about-me"
 					onClick={() => handlePageChange('About Me')}
 					className={
-						currentPage === 'About Me' ? 'nav-link active' : 'nav-link'
+						currentPage === 'About Me'
+							? 'navbar-item active-item'
+							: 'navbar-item'
 					}
 				>
 					About Me
 				</a>
 			</li>
-			<li className="nav-item">
+			<li>
 				<a
 					href="#portfolio"
 					onClick={() => handlePageChange('Portfolio')}
 					className={
-						currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'
+						currentPage === 'Portfolio'
+							? 'navbar-item active-item'
+							: 'navbar-item'
 					}
 				>
 					Portfolio
 				</a>
 			</li>
-			<li className="nav-item">
+			<li>
 				<a
 					href="#contact-me"
 					onClick={() => handlePageChange('Contact Me')}
 					className={
-						currentPage === 'Contact Me' ? 'nav-link active' : 'nav-link'
+						currentPage === 'Contact Me'
+							? 'navbar-item active-item'
+							: 'navbar-item'
 					}
 				>
 					Contact Me
 				</a>
 			</li>
-			<li className="nav-item">
+			<li>
 				<a
 					href="#resume"
 					onClick={() => handlePageChange('Resume')}
-					className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+					className={
+						currentPage === 'Resume' ? 'navbar-item active-item' : 'navbar-item'
+					}
 				>
 					Resume
 				</a>

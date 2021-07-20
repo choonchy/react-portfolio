@@ -1,16 +1,23 @@
-.nav-link {
-	color: #facc6b;
-	border: none;
+.navbar {
+	list-style: none;
 }
 
-.nav-link:hover {
-	color: #dd4b1a;
+.navbar-item {
+	font-size: 1vw;
+	margin: 0rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	text-decoration: none;
+	color: #2d232e;
 	border: none;
-	background-color: #facc6b;
+	transition: border-bottom 200ms;
+	border-bottom: 5px solid transparent;
 }
 
-.active {
-	color: #dd4b1a;
-	border: none;
-	background-color: #facc6b;
+.navbar-item:hover {
+	border-bottom: 5px solid #2d232e;
+}
+
+.active-item {
+	border-bottom: 5px solid #ba5624;
 }

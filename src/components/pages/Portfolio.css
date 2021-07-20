@@ -1,0 +1,63 @@
+.project > .image {
+	opacity: 100%;
+	transition-duration: 500ms;
+}
+
+.project-name {
+	text-align: left;
+	font-family: 'Caveat', cursive;
+	text-decoration: none;
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	margin-top: 4rem;
+	z-index: 100;
+	transition-duration: 500ms;
+	opacity: 0%;
+}
+
+.github-link {
+	position: absolute;
+	margin-top: 10rem;
+	z-index: 100;
+	transition-duration: 500ms;
+	opacity: 0%;
+}
+
+.project:hover > .image {
+	opacity: 50%;
+}
+
+.project:hover > .project-name {
+	opacity: 100%;
+}
+
+.project:hover > .github-link {
+	opacity: 100%;
+}
+
+.project-name:hover {
+	opacity: 100%;
+	color: #dd4b1a;
+}
+
+.project-name:hover ~ img {
+	opacity: 50%;
+}
+
+.project-name:hover + .github-link {
+	opacity: 100%;
+}
+
+/* .project-name:hover + .project {
+	opacity: 50%;
+} */
+
+.github-link:hover {
+	opacity: 100%;
+	filter: invert();
+}
+
+.github-link:hover + .project-name ~ .project {
+	opacity: 50%;
+}
