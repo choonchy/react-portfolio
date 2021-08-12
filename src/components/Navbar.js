@@ -45,11 +45,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 			</li>
 			<li>
 				<a
-					href="#resume"
-					onClick={() => handlePageChange('Resume')}
-					className={
-						currentPage === 'Resume' ? 'navbar-item active-item' : 'navbar-item'
-					}
+					href="https://1drv.ms/b/s!Ai5CWENMYkDfgqA8Olyq7GpCXds2cQ?e=kC7ukH"
+					target="_blank"
+					rel="noreferrer"
+					className="navbar-item"
 				>
 					Resume
 				</a>

@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import ContactMe from './pages/ContactMe';
-import Resume from './pages/Resume';
 import Footer from './Footer';
 import LinkedIn from '../images/LinkedIn Logo.png';
 
@@ -36,9 +35,6 @@ export default function PageRender() {
 		if (page === 'Contact Me') {
 			return <ContactMe />;
 		}
-		if (page === 'Resume') {
-			return <Resume />;
-		}
 	};
 
 	const handlePageChange = (page) => setPage(page);
@@ -47,7 +43,7 @@ export default function PageRender() {
 		<div>
 			<header style={styles.header}>
 				<div className="name-logo" style={styles.name}>
-					<span className="first-name">Tom</span>Chappell
+					<span className="first-name">Tom</span> Chappell
 				</div>
 				<Navbar currentPage={page} handlePageChange={handlePageChange} />
 				<div style={styles.name} className="name-logo">

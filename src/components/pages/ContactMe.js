@@ -3,6 +3,11 @@ import ColourPalette from '../ColourPalette';
 import { validateEmail } from '../../utils/helpers';
 
 const styles = {
+	contactMe: {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
+	},
 	input: {
 		border: 'none',
 		backgroundColor: ColourPalette.lightYellow,
@@ -53,7 +58,7 @@ const ContactMe = () => {
 	};
 
 	return (
-		<div>
+		<div style={styles.contactMe}>
 			<h2>Contact Me</h2>
 			<p>Hi! Nice to meet you!</p>
 			<p>

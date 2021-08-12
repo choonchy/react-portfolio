@@ -3,6 +3,7 @@ import ColourPalette from '../ColourPalette';
 import PortfolioImages from '../PortfolioImages';
 import GitHubLogo from '../../images/GitHub Logo.png';
 import './Portfolio.css';
+import Fade from 'react-reveal/Fade';
 
 const styles = {
 	portfolio: {
@@ -50,12 +51,16 @@ const renderImages = () => {
 	return Images.map((image) => {
 		return (
 			<div className="project" style={styles.portfolio}>
-				<img
-					className="image"
-					src={image.image}
-					style={styles.image}
-					alt="Preview of the application"
-				></img>
+				<Fade bottom>
+					<div className="project" style={styles.portfolio}>
+						<img
+							className="image"
+							src={image.image}
+							style={styles.image}
+							alt="Preview of the application"
+						></img>
+					</div>
+				</Fade>
 				<a
 					href={image.deployed}
 					className="project-name"
@@ -80,7 +85,9 @@ const renderImages = () => {
 const Portfolio = () => {
 	return (
 		<div style={styles.portfolio}>
-			<section style={styles.about}>This is where my portfolio will go</section>
+			<section style={styles.about}>
+				This is a collection of projects that I have worked on.
+			</section>
 			<div style={styles.projects}>{renderImages()}</div>
 		</div>
 	);

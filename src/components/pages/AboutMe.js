@@ -1,5 +1,6 @@
 import React from 'react';
 import ColourPalette from '../ColourPalette';
+import Image from '../../images/me.jpg';
 
 const styles = {
 	container: {
@@ -16,7 +17,6 @@ const styles = {
 		margin: '1rem',
 	},
 };
-
 const AboutMe = () => {
 	return (
 		<div style={styles.container}>
@@ -24,6 +24,7 @@ const AboutMe = () => {
 				Hi, my name is Tom and I am a full stack web developer specialising in
 				React, MongoDB, Express.js and Node.js.
 			</p>
+			<img src={Image} alt="Tom Chappell"></img>
 		</div>
 	);
 };
