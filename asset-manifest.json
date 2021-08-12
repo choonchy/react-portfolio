@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3684049d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.55597c10.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.55597c10.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.60502e23.chunk.js": "/react-portfolio/static/js/2.60502e23.chunk.js",
+    "static/js/2.60502e23.chunk.js.map": "/react-portfolio/static/js/2.60502e23.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.3684049d.chunk.css.map": "/react-portfolio/static/css/main.3684049d.chunk.css.map",
+    "static/js/2.60502e23.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.60502e23.chunk.js.LICENSE.txt",
+    "static/media/day-planner.png": "/react-portfolio/static/media/day-planner.024abd05.png",
+    "static/media/js-quiz.png": "/react-portfolio/static/media/js-quiz.cc1e2cc9.png",
+    "static/media/me.ecdee318.jpg": "/react-portfolio/static/media/me.ecdee318.jpg",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.3d931bac.png",
+    "static/media/static-portfolio.png": "/react-portfolio/static/media/static-portfolio.71151164.png",
+    "static/media/thy-will.png": "/react-portfolio/static/media/thy-will.cb53b906.png",
+    "static/media/tipsy-tricks.png": "/react-portfolio/static/media/tipsy-tricks.cc392ad6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.60502e23.chunk.js",
+    "static/css/main.3684049d.chunk.css",
+    "static/js/main.55597c10.chunk.js"
+  ]
+}
